@@ -7,8 +7,24 @@
 }
 
 body {
-	padding: 15% 10%;
+	padding: 15% 5%;
 	font-family: Spartan, sans-serif;
+}
+
+.intro {
+	text-align: center;
+}
+
+h1 {
+	color: hsl(300, 43%, 22%);
+	margin: 5% 0;
+	size: 15px;
+}
+
+.intro > p {
+	color: hsl(303, 10%, 53%);
+	width: 325px;
+	margin: 5% 0;
 }
 
 .attribution {
