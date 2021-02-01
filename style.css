@@ -103,3 +103,18 @@ h1 {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 1440px) {
+	body {
+		padding: 7% 15%;
+	}
+
+	.intro {
+		text-align: start;
+		width: 500px;
+	}
+
+	.intro h1 {
+		font-size: 50px;
+	}
+}
