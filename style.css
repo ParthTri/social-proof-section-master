@@ -49,6 +49,44 @@ h1 {
 	margin-bottom: 15px;
 }
 
+.comments {
+	list-style-type: none;
+}
+
+.comments li {
+	background-color: hsl(300, 43%, 22%);
+	margin: 5% 0;
+	padding: 12% 7%;
+	border-radius: 10px;
+	color: hsl(300, 24%, 96%);
+}
+
+.comments h2 {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.comments h3 {
+	color: hsl(333, 80%, 67%);
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 3%;
+}
+
+.comments p {
+	margin-top: 10%;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.profile {
+	border-radius: 50%;
+	width: 50px;
+	float: left;
+	margin-right: 7%;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
