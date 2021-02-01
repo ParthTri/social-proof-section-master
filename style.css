@@ -11,6 +11,15 @@ body {
 	font-family: Spartan, sans-serif;
 }
 
+.background {
+	position: absolute;
+}
+
+.top {
+	left: 0;
+	top: 0;
+}
+
 .intro {
 	text-align: center;
 }
