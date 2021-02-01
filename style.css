@@ -23,8 +23,30 @@ h1 {
 
 .intro > p {
 	color: hsl(303, 10%, 53%);
-	width: 325px;
+	width: auto;
 	margin: 5% 0;
+}
+
+.ratings {
+	list-style-type: none;
+}
+
+.ratings li {
+	background-color: hsl(300, 24%, 96%);
+	margin: 5% 0;
+	padding: 5%;
+	height: 100px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.ratings li > p {
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+}
+
+.stars {
+	margin-bottom: 15px;
 }
 
 .attribution {
