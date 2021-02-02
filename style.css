@@ -105,8 +105,18 @@ h1 {
 }
 
 @media screen and (min-width: 1440px) {
+	.mobile {
+		display: none;
+	}
+
+	.bottom {
+		right: 0;
+		bottom: 0;
+	}
+
 	body {
-		padding: 4% 10%;
+		padding: 7% 10.5%;
+		overflow: hidden;
 	}
 
 	.intro {
