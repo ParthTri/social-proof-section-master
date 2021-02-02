@@ -124,14 +124,27 @@ h1 {
 	}
 
 	.ratings li {
-		width: 500px;
-		height: 75px;
-		padding: 6%;
+		margin: 5% 0;
+		width: 450px;
+		height: 60px;
+		padding: 5%;
+	}
+
+	.ratings p {
+		font-size: 15px;
 	}
 
 	.stars {
 		float: left;
 		margin: 0;
+	}
+
+	.ratings li:nth-child(1) {
+		margin-left: -100px;
+	}
+
+	.ratings li:nth-child(2) {
+		margin-left: -50px;
 	}
 
 	.comments {
@@ -141,7 +154,7 @@ h1 {
 	}
 
 	.comments li {
-		width: 380px;
+		width: 360px;
 		height: 250px;
 		padding: 3%;
 		margin: 0;
@@ -149,6 +162,7 @@ h1 {
 
 	.comments p {
 		margin-top: 10%;
+		font-size: 13px;
 	}
 
 	.comments li:nth-child(2) {
