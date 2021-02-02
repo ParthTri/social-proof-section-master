@@ -21,7 +21,7 @@ body {
 }
 
 .desktop {
-	visibility: hidden;
+	display: none;
 }
 
 .intro {
@@ -114,7 +114,7 @@ h1 {
 	}
 
 	.desktop {
-		visibility: visible;
+		display: block;
 	}
 
 	.bottom {
