@@ -21,7 +21,7 @@ body {
 }
 
 .desktop {
-	display: none;
+	visibility: hidden;
 }
 
 .intro {
@@ -111,6 +111,10 @@ h1 {
 @media screen and (min-width: 1440px) {
 	.mobile {
 		display: none;
+	}
+
+	.desktop {
+		visibility: visible;
 	}
 
 	.bottom {
